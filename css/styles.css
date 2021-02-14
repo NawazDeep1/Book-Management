@@ -1,0 +1,171 @@
+body{
+	
+	font-family:Tahoma;
+	color:#444;
+	letter-spacing:1px;
+}
+
+#wrapper{
+	
+	width:90%;
+	max-width:960px;
+	margin:20px auto;
+	padding:0 0 20px 0;
+	border:1px solid lightgray;
+	border-radius:8px;
+	box-shadow:0px 1px 6px rgba(0,0,0,0.2);
+	box-sizing:border-box;
+	overflow:hidden;
+}
+
+#page-banner{
+	
+	background-color:#eee;
+	padding:10px 0;
+}
+
+#page-banner h1, #page-banner p{
+	width:100%;
+	text-align:center;
+	margin:10px 0;
+}
+
+#page-banner input{
+	
+	width:90%;
+	max-width:300px;
+	margin:20px auto;
+	display:block;
+	padding:8px;
+	border:1px solid #ddd;
+	border-radius:6px;
+	font-size:16px;
+	
+}
+
+
+#book-list, #add-book{
+	margin:30px;
+}
+
+#book-list ul{
+	
+	list-style-type:none;
+	padding:0;
+}
+
+
+#book-list li{
+	padding:20px;
+	border-left:7px solid #ddd;
+	margin:20px 10px;
+}
+
+#book-list li:hover{
+
+	border-color:#9361bf;
+
+}
+
+
+.delete{
+	
+	float:right;
+	background-color:#9361bf;
+	padding:7px 14px;
+	border-radius:6px;
+	color:#fff;
+	cursor:pointer;
+}
+
+.delete:hover{
+	background-color:#333;
+}
+
+#add-book{
+	
+	width:400px;
+	margin:0 auto;
+}
+
+#add-book input{
+	
+	width:300px;
+	margin:20px 0;
+	display:block;
+	padding:10px;
+	border:1px solid #ccc;
+	font-size:16px;
+	border-radius:8px 0 0 8px;
+	float:left;
+	box-sizing:border-box;
+}
+
+#add-book button{
+	
+	width:100px;
+	margin:20px 0;
+	display:inline-block;
+	padding:10px 20px;
+	font-size:16px;
+	border-radius:0 8px 8px 0;
+	float:left;
+	box-sizing:border-box;
+	border:1px solid #9361bf;
+	border-left:0;
+	background-color:#9361bf;
+	color:#fff;
+	cursor:pointer;
+	
+}
+
+#add-book #hide{
+	width:30px;
+}
+
+#add-book label{
+	line-height:53px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
